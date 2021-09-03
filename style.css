@@ -1,0 +1,159 @@
+
+	body {
+margin: 0;
+margin: auto;
+font-family: Arial, Helvetica, sans-serif;
+background-color: #7f53ac;
+background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+}
+    #welcome-section {
+    	top: 0;
+    	width: 100%;
+    	height: 600px;
+        padding: 25px;
+        position: relative;
+        background-image: url('https://img.wallpapersafari.com/desktop/1920/1080/75/32/zKYG1E.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #text {
+    	background-color: rgb(0,0,0); 
+        background-color: rgba(0,0,0, 0.4); 
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+    }
+    h1 {
+    	text-align: center;
+    }
+    #h1 {
+        font-size: 30px;
+        font-family: Calibri;
+    	}
+    #button {
+    	background-color: #0469A3; 
+    	font-size: 20px;
+    	padding: 15px;
+    	color: #F0F1F1;
+    }
+    #button:hover {
+    	background-color: #033D5E;
+    } 
+    #Portfolio {
+    	display: flex;
+    	flex-wrap: wrap;
+    	flex-direction: column;
+    	align-items:  center;
+    }
+    .portfolio {
+    	border: 5px inset;
+    	border-color: #033D5E;
+    	margin: 5px;
+    	width: 32%;
+    	background-color: #ADD8E6;
+width: 80%;
+height: 300px;
+position: relative;
+    	overflow: auto;
+    	margin-bottom: 300px;
+    }
+    #title {
+    	padding-top: 10%;
+    	padding: 5px;
+    	background-color: #033D5E;
+    	color: #F0F1F1;
+    }
+    .project-tile {
+    	list-style-type: none;
+    	color: #F0F1F1;
+    	padding: 5px;
+    	margin: 2px;
+    	text-decoration: none;
+    	background-color: #0469A3; 
+    	font-size: 16px;
+    	font-weight: bold;
+    	width: 250px;
+    	text-align: center;
+    }
+    .project-tile:hover {
+    	background-color: #033D5E;
+    } 
+    .titles {
+    	background-color: #ADD8E6;
+    }
+    #flexlink {
+    	display: flex;
+    	justify-content: space-between;
+    	flex-direction: column;
+    	align-items: center;
+    }
+    #navbar {
+    	position: fixed;
+        display: block;
+    	top: 0;
+    	list-style-type: none;
+    	display: flex;
+    	flex-direction: row;
+    	overflow: hidden;
+        background-color: #333;
+        width: 100%;
+    }
+    .lists {
+    	list-style-type: none;
+    	text-decoration: none;
+    	float: left;
+    	color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        background-color: #333;
+        font-weight: bold;
+    }
+    .lists:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+#content {
+	margin-top: 250px;
+	display: block;
+	padding-top: 2%;
+}
+.dependant {
+	margin-top: 50%;
+}
+#my_projects {
+	padding-top: 4%;
+}
+#experience {
+	padding-top: 5%;
+}
+#profile-link {
+	position: relative;
+	bottom: 0;
+	text-decoration: none;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    background-color: #333;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+#profile-link:hover {
+	 background-color: #4CAF50;
+  color: white;
+}
+@media (max-width: 800px) {
+	#profile-link {
+		position: absolute;
+	}
+}
